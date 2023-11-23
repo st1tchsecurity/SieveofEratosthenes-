@@ -1,7 +1,7 @@
-# SieveofEratosthenes
-A solution for a codewars Kata.
+# Sieve of Eratosthenes <br>
+A solution for a codewars Kata. <br>
 
-#Breaking Down the Code
+# Breaking Down the Code
 **Let’s break down the function:**
 
 **Sieve of Eratosthenes (sieve_of_eratosthenes function):** This function generates all prime numbers up to n. It creates a list of boolean values representing the numbers up to n (all initialized as True), then iteratively marks the multiples of each number starting from 2 as False (not prime). The function also creates a dictionary (primes) where the keys are the prime numbers and the values are the counts of even digits in each prime number.
